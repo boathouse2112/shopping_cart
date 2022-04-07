@@ -9,6 +9,26 @@
   align-items: center;
 }
 
-.circle {
+.red {
   color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
+.purple {
+  color: purple;
+}
+
+.pink {
+  color: pink;
 }

@@ -1,11 +1,15 @@
 import { ReactComponent as CircleSVG } from '../../resources/circle.svg';
 import styles from './CircleListing.module.css';
 
-const CircleListing = () => {
+const upperCaseFirstLetter = (str: string) => {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+};
+
+const CircleListing = (props: { color: string }) => {
   return (
     <div className={styles['circle-listing']}>
-      <CircleSVG className={styles.circle} />
-      <h2>Red</h2>
+      <CircleSVG className={styles[props.color]} />
+      <h2>{upperCaseFirstLetter(props.color)}</h2>
       <p>$24.99</p>
     </div>
   );

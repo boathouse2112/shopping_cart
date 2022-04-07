@@ -6,7 +6,7 @@
 
 .shop-content {
   min-height: calc(100vh - 60px);
-  padding: 0 40px;
+  padding: 0 40px 40px 40px;
 
   display: flex;
   flex-direction: column;
