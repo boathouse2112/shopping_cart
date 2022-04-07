@@ -1,3 +1,4 @@
+@import '../vars.css';
 
 .home {
   width: 100vw;
@@ -12,4 +13,27 @@
   background: url(../resources/hero.jpg);
   background-size: cover;
   background-position: center center;
+  
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.hero-content {
+  padding: 20px 80px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  background-color: var(--color-black);
+  font-size: 18px;
+  color: white;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+
+  margin: 0 0 0 40px;
 }

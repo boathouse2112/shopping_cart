@@ -7,10 +7,12 @@ function Home() {
     <div className={styles.home}>
       <Header />
       <section className={styles.hero}>
-        <div className="hero-content">
+        <div className={styles['hero-content']}>
           <h1>Have yourself a round one</h1>
           <h2>Premium circles at everyday prices</h2>
-          <button type="button">View more</button>
+          <button type="button" className={styles.button}>
+            View more
+          </button>
         </div>
       </section>
     </div>
