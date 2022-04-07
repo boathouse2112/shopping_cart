@@ -1,0 +1,34 @@
+@import '../../vars.css';
+
+.header {
+  height: 60px;
+  padding: 10px 100px 10px 20px;
+  background-color: var(--color-black);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.link {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: white;
+}
