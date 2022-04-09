@@ -1,11 +1,9 @@
 import React from 'react';
-import Header from '../Header';
 import styles from './Home.module.css';
 
 function Home() {
   return (
     <div className={styles.home}>
-      <Header />
       <section className={styles.hero}>
         <div className={styles['hero-content']}>
           <h1>Have yourself a round one</h1>
